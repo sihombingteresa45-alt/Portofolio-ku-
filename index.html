@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-Portfolio Profesional - Menampilkan karya, refleksi, dan kompetensi.">
+    <title>E-Portfolio | Beranda</title>
+    <!-- Tailwind CSS CDN untuk kemudahan styling -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+    <!-- Navigation -->
+    <nav class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="text-xl font-bold tracking-tight">Portfolio.</div>
+        <div class="space-x-6 text-sm font-medium text-slate-600">
+            <a href="#about" class="hover:text-slate-900 transition">Tentang</a>
+            <a href="#artifacts" class="hover:text-slate-900 transition">Artefak</a>
+            <a href="#contact" class="hover:text-slate-900 transition">Kontak</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="max-w-5xl mx-auto px-6 py-20 text-center md:text-left md:flex md:items-center md:justify-between">
+        <div class="max-w-2xl">
+            <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl">
+                Mentransformasi Gagasan Menjadi <span class="text-blue-600">Dampak Nyata</span>.
+            </h1>
+            <p class="mt-6 text-lg text-slate-600 leading-relaxed">
+                Selamat datang di ruang portofolio digital saya. Di sini, saya mendokumentasikan sintesis antara teori, praktik lapangan, dan refleksi mendalam atas proyek-proyek yang telah saya selesaikan.
+            </p>
+        </div>
+    </header>
+
+    <!-- Artifacts Section -->
+    <section id="artifacts" class="bg-white border-t border-b border-slate-200 py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-bold tracking-tight mb-10">Galeri Proyek & Artefak Kerja</h2>
+            <div class="grid gap-8 md:grid-cols-2">
+                <!-- Card 1 -->
+                <div class="border border-slate-200 rounded-xl p-6 hover:shadow-md transition">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-blue-600">Studi Kasus</span>
+                    <h3 class="text-lg font-bold mt-2">Pengembangan Modul Pembelajaran Interaktif</h3>
+                    <p class="text-sm text-slate-600 mt-2">Analisis implementasi rancangan berbasis aktivitas untuk meningkatkan retensi pemahaman.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="border border-slate-200 rounded-xl p-6 hover:shadow-md transition">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-green-600">Aplikasi</span>
+                    <h3 class="text-lg font-bold mt-2">Manajer Profil Data Berbasis Web</h3>
+                    <p class="text-sm text-slate-600 mt-2">Rancang bangun sistem penyimpanan data lokal terstruktur dengan antarmuka yang intuitif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="max-w-5xl mx-auto px-6 py-12 text-center text-sm text-slate-500">
+        <p>&copy; 2026 E-Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+      </html>
+      
